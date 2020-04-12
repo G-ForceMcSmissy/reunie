@@ -3,14 +3,6 @@ import React from "react";
 export default () => <div>Reünie Sint-Martinus!</div>;
 <div>test</div>;
 
-<script>
-info="<?xml version="1.O" encoding="UTF-8" standalone="no"?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
 
 <title>Welkom Op site van Abusadora Games</title>
