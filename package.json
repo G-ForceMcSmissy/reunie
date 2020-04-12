@@ -2,7 +2,7 @@
   "name": "gatsby-from-scratch",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "abusadoraIntro.html",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
