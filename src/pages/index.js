@@ -1,5 +1,8 @@
 import React from "react";
 
+export default () => <div>Reünie Sint-Martinus!</div>;
+<div>test</div>;
+
 <script>
 info="<?xml version="1.O" encoding="UTF-8" standalone="no"?>
 
