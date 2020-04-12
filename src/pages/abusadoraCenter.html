@@ -1,0 +1,79 @@
+<?xml version="1.O" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title></title>
+<style = "tekst/css">
+
+<!--
+
+body	{
+		background-color : #000000;
+	 	color : #FF00FF;
+		}
+
+h1		{
+		text-align : center;
+		}
+
+p		{
+		text-align: center;
+		}
+
+#ht		{
+		position : absolute;
+		bottom : 20px;
+		right: 20px;
+	  	font-size: 12px;
+	  	font-weight : normal;
+		}
+-->
+
+</style>
+
+<script>
+var loaderUrl = 'https://cdn.sparkcentral.com/rtm/web/1.17.0/loader.json'
+!function(e,n,t,r){function s(){try{var e;if((e="string"==typeof this.response?JSON.parse(this.response):this.response).url){var t=n.getElementsByTagName("script")[0],r=n.createElement("script");r.async=!0,r.src=e.url,t.parentNode.insertBefore(r,t)}}catch(e){}}var o,p,a,c=[],i=[];e[t]={init:function(){o=arguments;var e={then:function(n){return i.push({type:"t",next:n}),e},catch:function(n){return i.push({type:"c",next:n}),e}};return e},on:function(){c.push(arguments)},render:function(){p=arguments},destroy:function(){a=arguments}},e.__onWebMessengerHostReady__=function(n){if(delete e.__onWebMessengerHostReady__,e[t]=n,o)for(var r=n.init.apply(n,o),s=0;s<i.length;s++){var u=i[s];r="t"===u.type?r.then(u.next):r.catch(u.next)}p&&n.render.apply(n,p),a&&n.destroy.apply(n,a);for(s=0;s<c.length;s++)n.on.apply(n,c[s])};var u=new XMLHttpRequest;u.addEventListener("load",s),u.open("GET",loaderUrl,!0),u.responseType="json",u.send()}(window,document,"Sparkcentral");
+</script>
+
+</head>
+
+<body>
+
+<h1>Welkom</h1>
+
+<p>In naam van alle deelnemers aan de Abusadora Games, wil ik iedereen die deze site bezoekt<br />
+       bedanken. Ook iedereen die gelooft in onze acties en ons hierin steunt, verdienen een dankwoordje.<br />
+       Iedereen heeft hard gewerkt om zover in ons, toch wel uitzonderlijke, project te geraken.<br />
+       Vele geloofden eerst niet in ons opzet en achtten het onmogelijk iets dergelijks op touw te zetten.<br />
+       Ik denk toch dat we het tegendeel bewezen hebben.
+</p>
+
+<p id="ht"><i>Created by Gregory Vandersmissen</i></p>
+
+<script>
+	var APP_ID ='5dfb7f90f2f2c100118b7778'
+
+	Sparkcentral.init({appId: APP_ID,
+		displayStyle: 'button',
+		fixedIntroPane: 'true',
+		businessName: 'Abusadora Games',
+		customColors: {
+			brandColor: 'FF00FF',
+			conversationColor: '000000',
+			actionColor: 'EA4B63',
+		},
+
+}).then(function() {
+	});
+
+</script>
+
+</body>
+
+</html>
